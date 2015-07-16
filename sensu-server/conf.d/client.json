@@ -4,7 +4,8 @@
     "address": "192.168.31.134",
     "subscriptions": [
       "redis-server",
-      "rabbitmq-server"
+      "rabbitmq-server",
+      "uchiwa-server"
     ]
   }
 }

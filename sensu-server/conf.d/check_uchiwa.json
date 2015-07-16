@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "uchiwa": {
+      "command": "/etc/sensu/plugins/check-uchiwa-health.rb",
+      "subscribers": [
+        "uchiwa-server"
+      ],
+      "interval": 60
+    }
+  }
+}
