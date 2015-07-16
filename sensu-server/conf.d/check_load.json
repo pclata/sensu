@@ -1,7 +1,7 @@
 {
   "checks": {
     "load": {
-      "command": "/etc/sensu/plugins/check-load.rb"
+      "command": "/etc/sensu/plugins/check-load.rb",
       "subscribers": [
         "test"
       ],
