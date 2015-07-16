@@ -1,7 +1,7 @@
 {
   "checks": {
     "ntpd": {
-      "command": "/etc/sensu/plugins/check-procs.rb -p ntpd",
+      "command": "/etc/sensu/plugins/check-process.rb -p ntpd",
       "subscribers": [
         "test"
       ],
