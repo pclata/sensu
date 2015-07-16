@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "postfix": {
+      "command": "/etc/sensu/plugins/check-process.rb -p postfix",
+      "subscribers": [
+        "test"
+      ],
+      "interval": 60
+    }
+  }
+}
