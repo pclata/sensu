@@ -1,7 +1,7 @@
 {
   "checks": {
     "cron": {
-      "command": "/etc/sensu/plugins/check-procs.rb -p crond",
+      "command": "/etc/sensu/plugins/check-process.rb -p crond",
       "subscribers": [
         "test"
       ],

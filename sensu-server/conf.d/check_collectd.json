@@ -1,7 +1,7 @@
 {
   "checks": {
     "collectd": {
-      "command": "/etc/sensu/plugins/check-procs.rb -p collectd",
+      "command": "/etc/sensu/plugins/check-process.rb -p collectd",
       "subscribers": [
         "test"
       ],
