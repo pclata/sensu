@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "collectd": {
+      "command": "/etc/sensu/plugins/check-procs.rb -p collectd",
+      "subscribers": [
+        "test"
+      ],
+      "interval": 60
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "ssh": {
+      "command": "/etc/sensu/plugins/check-banner.rb -p 22 -q OpenSSH",
+      "subscribers": [
+        "test"
+      ],
+      "interval": 60
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "fs_writable": {
+      "command": "/etc/sensu/plugins/check-fs-writable.rb --dir /tmp",
+      "subscribers": [
+        "test"
+      ],
+      "interval": 60
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "ntpd": {
+      "command": "/etc/sensu/plugins/check-procs.rb -p ntpd",
+      "subscribers": [
+        "test"
+      ],
+      "interval": 60
+    }
+  }
+}
