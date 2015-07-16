@@ -1,7 +1,7 @@
 {
   "checks": {
     "redis": {
-      "command": "/etc/sensu/plugins/check-redis-ping-community.rb",
+      "command": "/etc/sensu/plugins/check-redis-ping.rb",
       "subscribers": [
         "redis-server"
       ],
