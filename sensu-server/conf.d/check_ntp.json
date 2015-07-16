@@ -1,7 +1,7 @@
 {
   "checks": {
     "ntp": {
-      "command": "/etc/sensu/plugins/check-ntp.rb -w 20 -c 100",
+      "command": "/etc/sensu/plugins/check-ntp.rb",
       "subscribers": [
         "test"
       ],
