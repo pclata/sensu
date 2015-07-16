@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "rabbitmq-amqp": {
+      "command": "/etc/sensu/plugins/check-rabbitmq-amqp-alive.rb",
+      "subscribers": [
+        "rabbitmq-server"
+      ],
+      "interval": 60
+    }
+  }
+}
